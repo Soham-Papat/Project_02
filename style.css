@@ -1,0 +1,66 @@
+.pricing-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin: 10%;
+    justify-content: space-evenly;
+
+}
+
+.pricing-plan {
+    background-color: #e9edc9;
+    border-radius: 4px;
+    width: 300px;
+    height: 290px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.042),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.061),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.075),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.089),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.108),
+        100px 100px 80px rgba(0, 0, 0, 0.15);
+}
+
+
+.plan-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 3.2rex;
+}
+
+.plan-price {
+    font-size: 5rex;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.plan-features {
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: rgb(43, 41, 41);
+    font-size: smaller;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-weight: bold;
+}
+
+.plan-button {
+    margin-left: 38%;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgba(255, 115, 0, 0.911);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+li {
+    padding-bottom: 15px;
+}
